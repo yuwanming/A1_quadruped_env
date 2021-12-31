@@ -13,7 +13,7 @@ The DRL framework trains A1 quadruped robot to perform five locomotion skills:
 More details can be found in the paper.
 
 ## Install dependencies
-Recommend to set up conda environment as below:
+The code has been tested in Ubuntu 16.04, 18.04 and 20.04. Recommend to set up conda environment as below:
 
 `conda create -n a1 python=3.6` 
 
