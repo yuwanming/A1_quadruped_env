@@ -6,7 +6,7 @@ Code for paper:
 
 The DRL framework trains A1 quadruped robot to perform five locomotion skills:
 
-* Motor skills trained with full states: balance recovery, trotting, and bounding
+* Motor skills trained with full states: balance recovery, trotting, and bounding.
 
 * Motor skills trained with key states which are identified through the proposed approach in this paper: balance recovery, trotting, bounding, pacing, and galloping. 
 
