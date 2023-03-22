@@ -15,29 +15,9 @@ More details can be found in the paper.
 ## Install dependencies
 The code has been tested in Ubuntu 16.04, 18.04 and 20.04. Recommend to install Anaconda (link for install instructions [here](https://docs.anaconda.com/anaconda/install/linux/))
 
-After installing Anaconda, set up conda environment as below:
+After installing Anaconda, set up conda environment and install dependencies as below:
 
-`conda create -n a1 python=3.6` 
-
-`conda activate a1`
-
-`pip install pybullet==3.0.8`
-
-`pip install -U numpy==1.16`
-
-`conda install tensorflow=1.10 tensorflow-gpu=1.10 cudatoolkit=9.0` (with GPU)
-
-`conda install tensorflow=1.10` (without GPU)
-
-`pip install gym`
-
-`conda install tqdm`
-
-`pip install moviepy`
-
-`conda install -c anaconda scikit-learn`
-
-`conda install matplotlib`
+`./run_create_conda_env.sh` 
 
 ## Run trained policies
 ### Full-state policies
@@ -45,8 +25,6 @@ After installing Anaconda, set up conda environment as below:
 * Trained full-state policies can be found in the corresponding folder under: `A1_quadruped_env/full_state/SAC/SAC/SAC/record/a1/`
 
 * To run the policies:
-
-    `conda activate a1`
     
     `cd A1_quadruped_env/full_state/SAC/SAC/`
     
@@ -69,8 +47,6 @@ After installing Anaconda, set up conda environment as below:
 `A1_quadruped_env/key_state/SAC/SAC/SAC/record/a1/`
 
 * To run the policies:
-
-    `conda activate a1`
     
     `cd A1_quadruped_env/key_state/SAC/SAC/`
     
